@@ -1,0 +1,108 @@
+
+body {
+    margin: 20px 10%;
+    background-color: #6850eecc;
+}
+
+main p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: start;
+    padding: 8px;
+    margin-top: 10px;  
+    color: white;  
+}
+
+
+nav{
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(16, 85, 150);
+    font-size: 18px;
+}
+
+nav ul li{
+    float: center;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    
+}
+section {
+    margin: 8px;
+    padding: 8px;    
+}
+
+article img {
+    display: flex;
+    float: left;
+    width: 300px;
+    height: 150px;
+    padding: 8px;
+    margin: 4px;    
+}
+
+article {
+    clear: left;
+
+
+}
+footer {
+    background-color: rgb(37, 30, 133);
+    text-align: center;
+    color: oldlace;
+    font-size: 20px;
+    line-height: 8px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.videoAjust {
+    display: flex;
+    justify-content: center;
+    padding-left: 250px;
+    margin-top: 20px;
+}
+
+ #titulo {
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: tomato;
+    margin: 8px;
+    
+
+    }
+    
+#titulo {  
+    animation-name: titulo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    }
+ 
+    
+@keyframes titulo{
+    0% { background-color: blue; color:white}
+    25% { background-color: white; color: blue}
+    50% { background-color: blue; color:white}
+    75% { background-color: white; color: blue}
+    100% { background-color: blue; color:white}
+}
+
+a{
+    color: white;
+    cursor: pointer;
+}
+a:hover{
+    color: salmon;
+
+}
+
+a:link{
+color: royalblue;
+}
+
+a:visited{
+    color:whitesmoke;
+}
+
+
